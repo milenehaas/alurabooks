@@ -19,10 +19,20 @@
 
     }
     .cabeçalho {
-        background-color: #ca7d25;
+        background-color: rgb(245, 168, 106);
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
     }
+     .container {
+        display: flex;
+        align-items: center;
+     }
+     .container-imagem{
+        padding: 1em;
+        margin: 1em;
+        width: 2em;
+     }
+
     
