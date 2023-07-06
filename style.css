@@ -3,9 +3,13 @@
     --branco: #FFFFFF;
     --laranja: #EB9800;
     --azul-degrade: linear-gradient(97,54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal:"Poppins";
     }
     body{
     background-color:var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 200;
     }
     h1{
     font-size: 100px;
@@ -48,5 +52,47 @@
         top: 100%;
         width: 20vw;
      }
+     
+     .lista-menu-titulo,
+     .lista-menu_item {
+      padding: 1em;
+      background-color: var(--branco);
+     }
+
+     .lista-menu-titulo {
+      color: var(--laranja);
+      font-weight: 700;}
+
+     .lista-menu-link {
+      background: var(--azul-degrade);
+      -webkit-background-clip: text;
+      background-clip: text;
+      text-transform: uppercase;
+     }
+
+     .container-botão {
+      display: none;
+     }
+
+     .lista-menu{
+      display: none;
+     }
+
+     .banner{
+      background-color: var(--branco);
+      color: black;
+      font-size: 20px;
+     }
+
+     .banner-titulo{
+      font-size: 20px;
+      font-weight: 700;
+     }
+
+     .banner-texto{
+      font-weight: 500;
+     }
+   
+   
 
     
