@@ -1,7 +1,7 @@
 :root{
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
-    --laranja: #EB9800;
+    --laranja: #000000;
     --azul-degrade: linear-gradient(97,54deg, #002F52 35.49%, #326589 165.37%);
     --font-principal:"Poppins";
     }
@@ -26,7 +26,7 @@
 
     }
     .cabeçalho {
-        background-color: rgb(245, 168, 106);
+        background-color: rgb(131, 49, 124);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -42,7 +42,7 @@
         width: 2em;
      }
 
-     ,.container-botão:checked ~ .lista-menu {
+     .container-botão:checked ~ .lista-menu {
         display: block;
      }
 
@@ -79,20 +79,48 @@
      }
 
      .banner{
-      background-color: var(--branco);
-      color: black;
+      background-color: rgb(211, 133, 226);
+      color: rgb(5, 5, 5);
       font-size: 20px;
      }
 
      .banner-titulo{
       font-size: 20px;
       font-weight: 700;
+      text-align: center;
      }
 
      .banner-texto{
       font-weight: 500;
+      text-align: center;
      }
+
+.banner-pesquisa {
+   background-color: transparent;
+   border: 1px solid var(--branco);
+   color: black;
+   border-radius: 24px;
+   padding: 1em;
+   width: 100%;
+   text-align: url("./img/lupa.svg") no-repeat ;
+   background-position: 1em;
+   text-align: center;
+}
+
+
+
+.carrossel_titulo {
+   background-color: var(--branco);
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: 700;
+   padding: 1em 0 0.5em 0;
+}
    
    
 
-    
+
+
+
+
