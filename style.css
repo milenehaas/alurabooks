@@ -143,7 +143,6 @@
    background: #c38edb;
    border-radius: 20px;
    text-align: center;
-   padding: 2em;
    margin: 2em;
 }
 
@@ -153,7 +152,18 @@
    font-size: 60px;
    background-color: #d9b3eb;
 }
+.botoes-item {
+   margin: 10px 15px;
+}
+.descricao
+{
+   padding: 20px;
+}
 
+.descricao-imagem
+{
+   padding: 25px 25px;
+}
 
 
 
