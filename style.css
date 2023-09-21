@@ -208,6 +208,49 @@
 }
 
 
+.rodape{
+   background-color: #cc88dd;
+   padding: 1em;
+   text-align: center;
+   margin: 20px;
+   border-radius: 30px;
+   font-weight: 300px;
+   font-size: 25px;
+   
+}
+
+
+.contato-titulo{
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.contato-texto{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+
+.contato-email{
+   padding: 1em;
+   border-radius: 25px;
+   border: 5px solid var(--azul-degrade);
+   width: 5px solid var(--laranja);
+
+}
+
+
+.contato-email::placeholder{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #440c52;
+   background: url(./img/email.svg) no-repeat;
+   background-position: 0;
+   
+}
+
+
+
+
 
 
 
